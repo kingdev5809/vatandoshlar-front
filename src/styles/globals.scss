@@ -1,0 +1,57 @@
+/* Default (Light) Theme */
+:root {
+  /* Brand Colors */
+  --color-primary: #004eeb;
+  --color-primary-dark: #00359e;
+  --color-primary-darker: #002266;
+
+  /* Text */
+  --color-text: #000000;
+
+  /* Grays */
+  --color-gray-light: #f5f8ff;
+  --color-gray: #d0d5dd;
+
+  /* Card */
+  --color-card-bg: #ffffff;
+  --shadow-card: 0px 11.68px 11.68px 0px #0000001a;
+
+  /* Fonts */
+  --font-family-base: "Inter", sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1rem;
+  --font-size-lg: 1.25rem;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+}
+
+/* Dark Theme */
+[data-theme="dark"] {
+  --color-primary: #004eeb;
+  --color-primary-dark: #00359e;
+  --color-primary-darker: #002266;
+
+  --color-text: #ffffff;
+
+  --color-gray-light: #1e1e1e;
+  --color-gray: #3a3a3a;
+
+  --color-card-bg: #1e1e1e;
+}
+
+/* High Contrast Theme */
+[data-theme="contrast"] {
+  --color-primary: #0000ff; /* Pure blue for max contrast */
+  --color-primary-dark: #0000cc;
+  --color-primary-darker: #000099;
+
+  --color-text: #000000; /* Pure black text */
+  --color-gray-light: #ffffff;
+  --color-gray: #e0e0e0;
+
+  --color-card-bg: #ffffff;
+}
