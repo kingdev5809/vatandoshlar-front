@@ -1,1 +1,16 @@
-{}
+{
+  "Home": {
+    "all": "Barchasi",
+    "projects": "Loyihalar"
+  },
+  "Header": {
+    "about-us": "О нас",
+    "map": "Карта сайта",
+    "subscription": "Подписка",
+    "search": "Поиск",
+    "login": "Войти",
+    "register": "Зарегистрироваться",
+    "or": "Или",
+    "test": "Сайт работает в тестовом режиме"
+  }
+}

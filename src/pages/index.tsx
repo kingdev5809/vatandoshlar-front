@@ -1,3 +1,4 @@
+import Projects from "@/features/home/components/Projects";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <h1>Home</h1>
+      <Projects />
     </>
   );
 }
