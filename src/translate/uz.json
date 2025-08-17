@@ -12,5 +12,11 @@
     "register": "Зарегистрироваться",
     "or": "Или",
     "test": "Сайт работает в тестовом режиме"
+  },
+  "navbar": {
+    "about_us": "Biz haqimizda",
+    "associations": "Birlashmalar",
+    "projects": "Loyihalar",
+    "information_services": "Axborot xizmatlari"
   }
 }

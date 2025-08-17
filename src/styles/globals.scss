@@ -1,10 +1,30 @@
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+main {
+  min-height: 320vh;
+  // padding-top: 90px;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: var(--font-size-md);
+}
+
 /* Default (Light) Theme */
 :root {
   /* Brand Colors */
   --color-primary: #004eeb;
   --color-primary-dark: #00359e;
   --color-primary-darker: #002266;
-
+  --color-white: #ffffff;
   /* Text */
   --color-text: #000000;
 
@@ -15,7 +35,7 @@
   /* Card */
   --color-card-bg: #ffffff;
   --shadow-card: 0px 11.68px 11.68px 0px #0000001a;
-
+  --color-gray-bg: #f2f4f7;
   /* Fonts */
   --font-family-base: "Inter", sans-serif;
   --font-size-sm: 0.875rem;

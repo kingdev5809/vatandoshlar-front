@@ -1,4 +1,5 @@
 import Projects from "@/features/home/components/Projects";
+import { HeroSec } from "@/Features/home";
 import Head from "next/head";
 
 export default function Home() {
@@ -7,7 +8,7 @@ export default function Home() {
       <Head>
         <title>Home</title>
       </Head>
-      <Projects />
+      <HeroSec />
     </>
   );
 }
