@@ -1,4 +1,4 @@
-import { HeroSec, Projects, Magazines } from "@/features/home/index";
+import { HeroSec, Magazines, Projects } from "@/Features/home";
 import Head from "next/head";
 
 export default function Home() {
