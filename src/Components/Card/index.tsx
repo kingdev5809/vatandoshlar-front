@@ -1,25 +1,27 @@
 import React from "react";
-import styled from "styled-components";
-import { CardContainer, CardContent, CardImage, CardTitle } from "./style";
+import { CardContainer, CardImage, CardContent, CardTitle } from "./style";
+import Image from "next/image";
 
 interface CardProps {
-  title: string;
-  image?: string;
+  data: {
+    title: string;
+    image: string;
+  };
 }
 
-const Card: React.FC<CardProps> = ({ title, image }) => {
+const Card: React.FC<CardProps> = ({ data }) => {
   return (
     <CardContainer>
-      <CardImage
-        src={
-          image ||
-          "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
-        }
-        alt={title}
-      />
-      
+      <CardImage>
+        <Image
+          src={data.image}
+          alt={data.title}
+          fill
+          style={{ objectFit: "cover" }}
+        />
+      </CardImage>
       <CardContent>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle>{data.title}</CardTitle>
       </CardContent>
     </CardContainer>
   );

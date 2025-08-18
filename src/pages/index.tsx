@@ -1,5 +1,4 @@
-import Projects from "@/features/home/components/Projects";
-import { HeroSec } from "@/Features/home";
+import { HeroSec, Projects, Magazines } from "@/features/home/index";
 import Head from "next/head";
 
 export default function Home() {
@@ -9,6 +8,8 @@ export default function Home() {
         <title>Home</title>
       </Head>
       <HeroSec />
+      <Projects />
+      <Magazines />
     </>
   );
 }

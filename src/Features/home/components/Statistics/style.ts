@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-export const ProjectSectionWrapper = styled.section`
+export const StatisticsSectionWrapper = styled.section`
   padding: 20px 24px;
   .cards {
     display: grid;
