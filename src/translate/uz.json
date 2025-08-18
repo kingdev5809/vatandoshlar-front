@@ -1,4 +1,19 @@
 {
+  "Home": {
+    "all": "Barchasi",
+    "projects": "Loyihalar",
+    "magazines": "Gazetalar"
+  },
+  "Header": {
+    "about-us": "О нас",
+    "map": "Карта сайта",
+    "subscription": "Подписка",
+    "search": "Поиск",
+    "login": "Войти",
+    "register": "Зарегистрироваться",
+    "or": "Или",
+    "test": "Сайт работает в тестовом режиме"
+  },
   "navbar": {
     "about_us": "Biz haqimizda",
     "associations": "Birlashmalar",

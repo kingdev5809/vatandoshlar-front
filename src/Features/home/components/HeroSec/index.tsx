@@ -1,5 +1,6 @@
 import React from 'react'
 import { StyledHeroSec } from './style'
+
 const HeroSec = () => {
   return (
     <StyledHeroSec>
