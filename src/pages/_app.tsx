@@ -1,5 +1,5 @@
-import MainLayout from "@/component/Layout";
-import ThemeProvider from "@/component/ThemeProvider";
+import MainLayout from "@/components/Layout";
+import ThemeProvider from "@/components/ThemeProvider";
 import "@/styles/globals.scss";
 import IntlWrapperProvider from "@/utils/intlWrapperProvider";
 import type { AppProps } from "next/app";

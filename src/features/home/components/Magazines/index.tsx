@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { LeftItem, MagazinesSectionWrapper, RightItem, TabItem } from "./style";
-import SectionWrapper from "@/component/SectionWrapper";
+import SectionWrapper from "@/components/SectionWrapper";
 import { useTranslations } from "next-intl";
 import { magazineImage } from "@/assets/images";
 

@@ -1,5 +1,5 @@
-import Card from "@/component/Card";
-import SectionWrapper from "@/component/SectionWrapper";
+import Card from "@/components/Card";
+import SectionWrapper from "@/components/SectionWrapper";
 import { projectBgImg, projectImg2, projectImg3 } from "@/assets/images";
 import { useTranslations } from "next-intl";
 import React from "react";
