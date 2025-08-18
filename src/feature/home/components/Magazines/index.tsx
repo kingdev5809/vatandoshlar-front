@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { LeftItem, MagazinesSectionWrapper, RightItem, TabItem } from "./style";
-import SectionWrapper from "@/Components/SectionWrapper";
+import SectionWrapper from "@/component/SectionWrapper";
 import { useTranslations } from "next-intl";
 import { magazineImage } from "@/assets/images";
 
@@ -40,8 +40,8 @@ const Magazines = () => {
             <Image
               src={magazineImage}
               alt={"#"}
-            //   width={400}
-            //   height={500}
+              //   width={400}
+              //   height={500}
               style={{ borderRadius: 12, objectFit: "cover" }}
             />
           )}
