@@ -93,7 +93,7 @@ export const StyledNavbar = styled.div`
     &.sticky {
       position: fixed;
       transform: translateY(0%);
-      top: 5px;
+      top: 0px;
       .navbar {
         margin: 0;
         .link_side {

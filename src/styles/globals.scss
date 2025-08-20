@@ -3,6 +3,12 @@ body {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  width: calc(100% - 48px);
+}
+
 main {
   min-height: 320vh;
   // padding-top: 90px;
