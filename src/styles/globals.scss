@@ -2,6 +2,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
+  font-family: "Montserrat", sans-serif;
 }
 .container {
   max-width: 1400px;
@@ -35,6 +36,7 @@ main {
   --color-text: #000000;
 
   /* Grays */
+  --color-gray-ex-light: #eff4ff;
   --color-gray-light: #f5f8ff;
   --color-gray: #d0d5dd;
 
@@ -43,7 +45,7 @@ main {
   --shadow-card: 0px 11.68px 11.68px 0px #0000001a;
   --color-gray-bg: #f2f4f7;
   /* Fonts */
-  --font-family-base: "Inter", sans-serif;
+  --font-family-base: "Montserrat", sans-serif;
   --font-size-sm: 0.875rem;
   --font-size-md: 1rem;
   --font-size-lg: 1.25rem;

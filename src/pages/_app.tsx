@@ -1,6 +1,7 @@
 import MainLayout from "@/components/Layout";
 import ThemeProvider from "@/components/ThemeProvider";
 import "@/styles/globals.scss";
+import "@/styles/fonts.scss";
 import IntlWrapperProvider from "@/utils/intlWrapperProvider";
 import type { AppProps } from "next/app";
 import Head from "next/head";
