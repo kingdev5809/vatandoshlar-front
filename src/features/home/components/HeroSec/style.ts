@@ -7,17 +7,15 @@ export const StyledHeroSec = styled.div`
     height: 100vh;
     overflow: hidden;
 
-    video {
+    .video-bg {
       position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
       object-fit: cover;
-      transform: translate(-50%, -50%);
       z-index: -1;
+      border-radius: 0;
     }
 
     .content {
@@ -33,8 +31,7 @@ export const StyledHeroSec = styled.div`
   }
 
   .public-foundation {
-    position: relative;
-    margin-top: 60px;
+    margin-top: 120px;
     h1 {
       font-size: 50px;
       display: flex;
@@ -54,11 +51,18 @@ export const StyledHeroSec = styled.div`
       margin: 0 auto;
       padding: 36px;
       border-radius: 24px;
+
       p {
         font-size: var(--font-size-lg);
-        font-weight: var(400);
         line-height: 32px;
-        margin: 0;
+      }
+
+      .video-inline {
+        margin-top: 24px;
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 16px;
       }
     }
   }
