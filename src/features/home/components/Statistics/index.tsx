@@ -1,7 +1,7 @@
 import React from "react";
-import { StatisticsSectionWrapper } from "./style";
 import SectionWrapper from "@/components/SectionWrapper";
 import { useTranslations } from "next-intl";
+import { StatisticsSectionWrapper } from "./style";
 
 const Statistics = () => {
   const t = useTranslations();

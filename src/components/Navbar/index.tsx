@@ -88,7 +88,7 @@ const Navbar = () => {
       setIsArrow(false);
     }
 
-    if (offset > 1000) {
+    if (offset > 600) {
       setScrolled(true);
     } else {
       setScrolled(false);
@@ -105,7 +105,7 @@ const Navbar = () => {
         <div
           className={`${scrolled ? "sticky" : ""} stick_desktop ${startScrool ? "start_scroll" : ""}`}
         >
-          <div className="container">
+          <div className="">
             <div className="navbar">
               <div className="logo_side">
                 <Image src={MainLogo} alt="logo" width={50} height={50} />
